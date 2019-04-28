@@ -4,8 +4,12 @@ def byte_arr(string):
 def bin_to_hex(list):
     return hex(int(''.join(list), 2)).replace('0x', '', 1).upper()
 
-def hex_to_bin(list):
-    pass
+def hex_to_bin(string):
+    return format(int(string, 16), 'b')
 
 def flatten(list_of_list):
     return [v for l1 in list_of_list for v in l1]
+
+
+def split_n(n, string):
+    return [(string[i:i+n]) for i in range(0, len(string), n)]
