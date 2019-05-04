@@ -30,6 +30,8 @@ def main():
         help='Encodes an ASCII string and returns the hexadecimal code')
     parser.add_argument('-d', '--decode', nargs=1, metavar='ascii_string', type=str, dest='decode',
         help='Decodes an hexadecimal code and returns the ASCII string')
+    parser.add_argument('-k', '--key', nargs=1, metavar='key_polinom', type=str, dest='key',
+        help='Generator polinom')
 
     args = parser.parse_args()
 

@@ -38,6 +38,7 @@ def check_hex(bit_list, bcc):
 
 def decode(hex_string):
     bit = hex_to_bin(hex_string)
+    # quebra uma lista em pedacos de tamanho n
     bit_list = split_n(8, bit)
     
     bcc = list(bit_list[-1])
