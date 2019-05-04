@@ -61,7 +61,7 @@ def decode(hex_val, key):
             for i, x in enumerate(res) 
             if x == '_'
         ]
-        str_res += '\nErro nos caracteres: ' + ', '.join(wrongs)
+        str_res += '\nERRO nos caracteres: ' + ', '.join(wrongs)
 
     return str_res
 
