@@ -1,6 +1,11 @@
 # net-encoder-decoder
 Encoder/Decoder for network communication - block Redundancy/CRC/Hamming Code
 
+## Detalhes para execução
+Utilizar Python 3 para executar o código.
+
+Caso a versão default do Python da máquina não for a versão 3, modificar o comando de execução de `./index.py ...` para `python3 index.py ...`.
+
 ## Exemplos de uso
 ```
 usage: index.py [-h] [-a algorithm] [-e ascii_string] [-d ascii_string]
